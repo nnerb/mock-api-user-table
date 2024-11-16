@@ -48,7 +48,7 @@ function App() {
             <th className="py-2 px-4">Display Name</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className='text-center'>
           {users.map(user => (
             <tr key={user.id}>
               <td className="py-2 px-4 border-b border-r">{user.id}</td>
